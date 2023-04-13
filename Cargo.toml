@@ -1,0 +1,14 @@
+[package]
+name = "sound-simulator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+plotters-iced = "0.7"
+iced = { version = "0.8", features = ["canvas", "tokio"] }
+plotters="0.3"
+chrono = { version = "0.4", default-features = false }
+plotters-backend = "0.3"
+wav = "1.0.0"
